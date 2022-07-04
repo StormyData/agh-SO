@@ -1,0 +1,135 @@
+small files 1 file wc count
+counting 1 files
+Real Time: 0.020000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+small files 5 file wc count
+counting 5 files
+Real Time: 0.100000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+counting 10 files
+Real Time: 0.190000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+medium files 1 file wc count
+counting 1 files
+Real Time: 0.140000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+medium files 5 file wc count
+counting 5 files
+Real Time: 0.690000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+medium files 10 file wc count
+counting 10 files
+Real Time: 1.410000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+large files 1 file wc count
+counting 1 files
+Real Time: 0.590000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+large files 5 file wc count
+counting 5 files
+Real Time: 2.740000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+large files 10 file wc count
+counting 10 files
+Real Time: 5.610000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+
+
+
+
+testing block delete
+small files file block delete
+counting 1 files
+Real Time: 0.020000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+counting 5 files
+Real Time: 0.090000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 1
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+counting 10 files
+Real Time: 0.170000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 2
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+medium files file block delete
+counting 1 files
+Real Time: 0.140000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+counting 5 files
+Real Time: 0.660000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 1
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+counting 10 files
+Real Time: 1.320000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 2
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+large files file block delete
+counting 1 files
+Real Time: 0.530000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 0
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+counting 5 files
+Real Time: 2.630000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 1
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+counting 10 files
+Real Time: 5.240000, User Time 0.020000, System Time 32199137.270000
+storing result
+stored at index 2
+Real Time: 0.000000, User Time 0.020000, System Time 32199137.270000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+deleting block 0
+Real Time: 0.000000, User Time 0.000000, System Time 0.000000
+
+
+
+
+testing storing and freeing large blocks many times
+storing and deleting file ./tests/small_files/1.txt 1000 times
+Real Time: 0.020000, User Time 0.000000, System Time 0.020000
+storing and deleting file ./tests/medium_files/1.txt 1000 times
+Real Time: 0.350000, User Time 0.010000, System Time 0.340000
+storing and deleting file ./tests/large_files/1.txt 1000 times
+Real Time: 2.020000, User Time 0.000000, System Time 2.000000

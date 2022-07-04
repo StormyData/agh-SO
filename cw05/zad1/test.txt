@@ -1,0 +1,7 @@
+składnik1 = cat /etc/passwd | wc -l
+składnik2 = ls | grep m
+składnik3 = grep 11
+
+składnik1 | składnik3 | tee out1.txt
+składnik1
+składnik2 | tee out3.txt

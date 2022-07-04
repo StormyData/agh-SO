@@ -1,0 +1,165 @@
+
+./main 1 block small.ascii.pgm
+thread index = 0, time taken = 0s765954ns
+total time taken = 0s891510ns
+./main 2 block small.ascii.pgm
+thread index = 0, time taken = 0s461899ns
+thread index = 1, time taken = 0s452395ns
+total time taken = 0s579586ns
+./main 4 block small.ascii.pgm
+thread index = 0, time taken = 0s761572ns
+thread index = 1, time taken = 0s1008049ns
+thread index = 2, time taken = 0s1106960ns
+thread index = 3, time taken = 0s1135824ns
+total time taken = 0s1329997ns
+./main 8 block small.ascii.pgm
+thread index = 0, time taken = 0s662954ns
+thread index = 1, time taken = 0s693578ns
+thread index = 2, time taken = 0s669060ns
+thread index = 3, time taken = 0s706205ns
+thread index = 4, time taken = 0s685981ns
+thread index = 5, time taken = 0s719100ns
+thread index = 6, time taken = 0s703473ns
+thread index = 7, time taken = 0s708984ns
+total time taken = 0s990705ns
+./main 16 block small.ascii.pgm
+thread index = 0, time taken = 0s302640ns
+thread index = 1, time taken = 0s379707ns
+thread index = 2, time taken = 0s353530ns
+thread index = 3, time taken = 0s391850ns
+thread index = 4, time taken = 0s340789ns
+thread index = 5, time taken = 0s333761ns
+thread index = 6, time taken = 0s340247ns
+thread index = 7, time taken = 0s200395ns
+thread index = 8, time taken = 0s307550ns
+thread index = 9, time taken = 0s270033ns
+thread index = 10, time taken = 0s305019ns
+thread index = 11, time taken = 0s329420ns
+thread index = 12, time taken = 0s323367ns
+thread index = 13, time taken = 0s325281ns
+thread index = 14, time taken = 0s333772ns
+thread index = 15, time taken = 0s281895ns
+total time taken = 0s1032992ns
+./main 1 block big.ascii.pgm
+thread index = 0, time taken = 0s506355110ns
+total time taken = 0s506508629ns
+./main 2 block big.ascii.pgm
+thread index = 0, time taken = 0s272928319ns
+thread index = 1, time taken = 0s275906433ns
+total time taken = 0s276077587ns
+./main 4 block big.ascii.pgm
+thread index = 0, time taken = 0s190702551ns
+thread index = 1, time taken = 0s191084968ns
+thread index = 2, time taken = 0s188146892ns
+thread index = 3, time taken = 0s188995113ns
+total time taken = 0s191265286ns
+./main 8 block big.ascii.pgm
+thread index = 0, time taken = 0s297153926ns
+thread index = 1, time taken = 0s297056094ns
+thread index = 2, time taken = 0s338966839ns
+thread index = 3, time taken = 0s296251204ns
+thread index = 4, time taken = 0s304193705ns
+thread index = 5, time taken = 0s289312231ns
+thread index = 6, time taken = 0s325695225ns
+thread index = 7, time taken = 0s261915460ns
+total time taken = 0s339199894ns
+./main 16 block big.ascii.pgm
+thread index = 0, time taken = 0s329534019ns
+thread index = 1, time taken = 0s264737343ns
+thread index = 2, time taken = 0s327341119ns
+thread index = 3, time taken = 0s122112434ns
+thread index = 4, time taken = 0s331107505ns
+thread index = 5, time taken = 0s337344134ns
+thread index = 6, time taken = 0s348437152ns
+thread index = 7, time taken = 0s125005729ns
+thread index = 8, time taken = 0s300275013ns
+thread index = 9, time taken = 0s336073908ns
+thread index = 10, time taken = 0s284806749ns
+thread index = 11, time taken = 0s331269686ns
+thread index = 12, time taken = 0s333306526ns
+thread index = 13, time taken = 0s281188724ns
+thread index = 14, time taken = 0s223993921ns
+thread index = 15, time taken = 0s325186804ns
+total time taken = 0s354143323ns
+./main 1 numbers small.ascii.pgm
+thread index = 0, time taken = 0s1190156ns
+total time taken = 0s1294993ns
+./main 2 numbers small.ascii.pgm
+thread index = 0, time taken = 0s3352856ns
+thread index = 1, time taken = 0s3675387ns
+total time taken = 0s3837124ns
+./main 4 numbers small.ascii.pgm
+thread index = 0, time taken = 0s3456028ns
+thread index = 1, time taken = 0s3784799ns
+thread index = 2, time taken = 0s3464016ns
+thread index = 3, time taken = 0s3417784ns
+total time taken = 0s3960549ns
+./main 8 numbers small.ascii.pgm
+thread index = 0, time taken = 0s2877305ns
+thread index = 1, time taken = 0s2845500ns
+thread index = 2, time taken = 0s2872779ns
+thread index = 3, time taken = 0s2960725ns
+thread index = 4, time taken = 0s4470630ns
+thread index = 5, time taken = 0s4624674ns
+thread index = 6, time taken = 0s4285022ns
+thread index = 7, time taken = 0s3631716ns
+total time taken = 0s5315439ns
+./main 16 numbers small.ascii.pgm
+thread index = 0, time taken = 0s2273136ns
+thread index = 1, time taken = 0s2341709ns
+thread index = 2, time taken = 0s2291929ns
+thread index = 3, time taken = 0s2306851ns
+thread index = 4, time taken = 0s2292758ns
+thread index = 5, time taken = 0s4620783ns
+thread index = 6, time taken = 0s2323774ns
+thread index = 7, time taken = 0s2235965ns
+thread index = 8, time taken = 0s4518638ns
+thread index = 9, time taken = 0s3668415ns
+thread index = 10, time taken = 0s4046807ns
+thread index = 11, time taken = 0s2658363ns
+thread index = 12, time taken = 0s5077296ns
+thread index = 13, time taken = 0s3320384ns
+thread index = 14, time taken = 0s3256408ns
+thread index = 15, time taken = 0s2228584ns
+total time taken = 0s7624112ns
+./main 1 numbers big.ascii.pgm
+thread index = 0, time taken = 0s747749712ns
+total time taken = 0s747886852ns
+./main 2 numbers big.ascii.pgm
+thread index = 0, time taken = 1s427130875ns
+thread index = 1, time taken = 1s426397065ns
+total time taken = 1s427244993ns
+./main 4 numbers big.ascii.pgm
+thread index = 0, time taken = 1s553262595ns
+thread index = 1, time taken = 1s556609893ns
+thread index = 2, time taken = 1s102391953ns
+thread index = 3, time taken = 1s100634154ns
+total time taken = 1s556781983ns
+./main 8 numbers big.ascii.pgm
+thread index = 0, time taken = 1s829447205ns
+thread index = 1, time taken = 1s799831196ns
+thread index = 2, time taken = 2s65584750ns
+thread index = 3, time taken = 2s65574522ns
+thread index = 4, time taken = 2s110162041ns
+thread index = 5, time taken = 1s588675711ns
+thread index = 6, time taken = 1s588628228ns
+thread index = 7, time taken = 1s553264122ns
+total time taken = 2s110424791ns
+./main 16 numbers big.ascii.pgm
+thread index = 0, time taken = 3s418706083ns
+thread index = 1, time taken = 3s542131476ns
+thread index = 2, time taken = 3s417154175ns
+thread index = 3, time taken = 3s788388995ns
+thread index = 4, time taken = 3s555586992ns
+thread index = 5, time taken = 3s250999056ns
+thread index = 6, time taken = 3s640708803ns
+thread index = 7, time taken = 3s834331240ns
+thread index = 8, time taken = 4s13077371ns
+thread index = 9, time taken = 3s883649220ns
+thread index = 10, time taken = 3s883457082ns
+thread index = 11, time taken = 3s738493722ns
+thread index = 12, time taken = 3s682615028ns
+thread index = 13, time taken = 3s684891695ns
+thread index = 14, time taken = 3s534173153ns
+thread index = 15, time taken = 2s966072279ns
+total time taken = 4s28182717ns

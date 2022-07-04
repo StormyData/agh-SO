@@ -1,0 +1,1 @@
+jak widać z testów, które przeszły, wieloprocesowe pisanie do potoku nazwanego jest bezpieczne tak długo jak każda operacja zapisu operuje na buforze krótszym niż PIPE_BUFF

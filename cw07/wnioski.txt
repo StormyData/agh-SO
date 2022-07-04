@@ -1,0 +1,10 @@
+dla N,M < 5:
+    bywają momenty, że pamięć wspólna nie jest wykorzystywana w całości, tzn. ilość zajętego miejsca jest prawie zawsze < N
+    "niskie" wykorzystanie pamięci wspólnej
+    wysokie wykorzystanie procesów które mają do niej dostęp (pracują prawie przez cały czas)
+
+
+dla N,M > 5:
+    pamięć wspólna jest pełna praktycznie zawsze, prawie zawsze któryś, z pracowników czeka, by włożyć coś do pieca/na stoł
+    wysokie wykorzystanie pamięci wspólnej
+    niskie wykorzystanie procesów które mają do niej dostęp (niektóre procesy spędzają większość czasu czekając na wolne miejsce)

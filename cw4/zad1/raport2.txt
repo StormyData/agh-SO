@@ -1,0 +1,25 @@
+--------------------fork-------------------
+ignore
+handler
+parent pid = 18959
+Received signal User defined signal 1, pid = 18959
+Received signal User defined signal 1, pid = 18960
+mask
+child signal is masked
+pending
+signal is pendizng
+child signal is not pending
+--------------------exec-------------------
+ignore
+mask
+execl signal is masked
+pending
+signal is pending
+execl signal is pending
+----------------------------------
+jak widać w przypadkach fork i exec:
+sygnały ignorowane są dalej ignorowane po wywołanu fork i exec
+sygnały maskowane są dalej maskowane po wywołanu fork i exec
+sygnały oczekujące są dalej oczekujące po wywołanu exec ale nie fork
+handlery sygnałów są te same w przypadku fork, 
+w przypadku exec kod handlera przestaje istnieć, więc nie może być przezkzany

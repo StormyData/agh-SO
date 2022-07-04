@@ -1,0 +1,7 @@
+wybór sposobu podziału zadania ma bardzo duże znaczenie, w przypadku numbers (zły podział) niezależnie od wielkości obrazu zwiększenie ilości wątków powoduje wydłużenie czasu wykonania
+w przypadku block jesteśmy wstanie zobaczyć pewien wzrost wydajności przy dobrych innych warunkach
+(liczba wątków równa ilości wątków maszyny, wielkość zadania dużo dużo większa od nakładu wywołanego tworzeniem wątku)
+
+dla małych obrazów nakład związany z tworzeniem wątku jest dużo większy niż zysk czasowy uzyskany przez jakiekolwiek przetwarzanie równoległe
+dla dużych obrazów nakład związany z tworzeniem wątku przy dobrym podziale zadań jest dużo dużo mniejszy od czasu wykonania zadania, więc dodanie wątków
+(do granicy procesora) powoduje przyśpieszenie obliczeń

@@ -1,0 +1,25 @@
+testy
+test SIGINFO
+test SIGINFO
+stopping child
+received signal: SIGCHLD from pid=8287 owned by UID=1000 signal code CLD_STOPPED
+continuing child
+received signal: SIGCHLD from pid=8287 owned by UID=1000 signal code CLD_CONTINUED
+received signal: SIGCHLD from pid=8287 owned by UID=1000 exit_code=2 time in usermode 0.000000, time in systemmode 0.000000 signal code CLD_EXITED
+-------
+test NOCLDSTOP
+test NOCLDSTOP
+stopping child
+continuing child
+received signal: SIGCHLD from pid=8343 owned by UID=1000 exit_code=2 time in usermode 0.000000, time in systemmode 0.000000 signal code CLD_EXITED
+-------
+test RESETHAND
+sending signal once
+received signal 10
+sending signal second time
+-
+powoduje rzucenie User defined signal 1
+-------
+jak widać wykorzystuąc SA_SIGINFO otrzymujemy dużo więcej informacji o sygnale niż tylko jego numer
+SA_NOCLDSTOP powoduje, że proces nie jest powiadamiany o wstrzymywaniu i wznawianiu działania procesu potomnego
+SA_RESETHAND powoduje, że handler jest rejestrowany tylko na jeden raz, po którym powraca do domyślnego

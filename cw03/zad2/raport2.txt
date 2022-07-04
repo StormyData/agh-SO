@@ -1,0 +1,42 @@
+test 2500000000 segmentów dzielone na 5000 procesów
+result = 312.726135
+
+real	0m0,277s
+user	0m1,014s
+sys	0m0,313s
+test 500000000 segmentóœ dzielone na 1000 procesów
+result = 1563.864624
+
+real	0m0,056s
+user	0m0,209s
+sys	0m0,062s
+test 500000000 segmentów dzielone na 5000 procesów
+result = 62.775944
+
+real	0m0,275s
+user	0m1,033s
+sys	0m0,307s
+test 25000000000 segmentóœ dzielone na 5000 procesów
+result = 312.726135
+
+real	0m0,272s
+user	0m0,983s
+sys	0m0,302s
+test 25000000000 segmentóœ dzielone na 5000 procesów
+result = 3246.163086
+
+real	0m0,292s
+user	0m1,055s
+sys	0m0,327s
+test 25000000 segmentóœ dzielone na 5 procesów
+result = 3278068.000000
+
+real	0m0,018s
+user	0m0,019s
+sys	0m0,000s
+test 25000000 segmentóœ dzielone na 5000 procesów
+result = 3.142217
+
+real	0m0,344s
+user	0m1,076s
+sys	0m0,340s
